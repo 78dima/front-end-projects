@@ -1,22 +1,22 @@
 # front-end-scripts
-w.academybb.ru
-wbooster.ru
-liantrade-sb.ru
-altdekor.ru
-samson-pharma.ru
-ozerki.ru
-lk-wb.dev-wbooster.ru/lk-wb-quiz/quizz-wb
-bathpoint.armaniroca.ru
-ek.lp-rosek.dev-wbooster.ru
-estetic-fs.dev-wbooster.ru
-folsen.dev-wbooster.ru
-grundfos.dev-wbooster.ru
-gruzvverh-new.dev-wbooster.ru
-l2w.dev-wbooster.ru
-li-event.dev-wbooster.ru
-lk-wb.dev-wbooster.ru
-lp-liantrade.dev-wbooster.ru
-lp-saleshub.dev-wbooster.ru
-lp-wbooster.dev-wbooster.ru
-ruspricep-promo.ru
-teploknauf.com
+w.academybb.ru <br>
+wbooster.ru <br>
+liantrade-sb.ru <br>
+altdekor.ru <br>
+samson-pharma.ru <br>
+ozerki.ru <br>
+lk-wb.dev-wbooster.ru/lk-wb-quiz/quizz-wb <br>
+bathpoint.armaniroca.ru <br>
+ek.lp-rosek.dev-wbooster.ru <br>
+estetic-fs.dev-wbooster.ru <br>
+folsen.dev-wbooster.ru <br>
+grundfos.dev-wbooster.ru <br>
+gruzvverh-new.dev-wbooster.ru <br>
+l2w.dev-wbooster.ru <br>
+li-event.dev-wbooster.ru <br>
+lk-wb.dev-wbooster.ru <br>
+lp-liantrade.dev-wbooster.ru <br>
+lp-saleshub.dev-wbooster.ru <br>
+lp-wbooster.dev-wbooster.ru <br>
+ruspricep-promo.ru <br>
+teploknauf.com <br>
