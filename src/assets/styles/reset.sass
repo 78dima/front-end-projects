@@ -1,0 +1,124 @@
+*
+	font-family: 'Muller', sans-serif;
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+html
+	font-size: 10px
+	@media (max-width: 767px)
+		font-size: 10px
+body
+	line-height: 1.2
+	font-weight: 300
+	color: #000
+	overflow-x: hidden
+	min-width: 320px
+
+h1, h2, h3, h4, h5, h6
+
+h2
+	margin-top: 2rem
+	margin-bottom: 0
+	font-size: 3.5rem
+	font-weight: bold 
+	text-align: left   
+h3
+	font-weight: bold
+	font-size: 2.4rem
+h5
+	font-size: 2rem
+	font-weight: bold 
+
+a
+	color: inherit
+	&:hover, 
+	&:focus
+		color: inherit
+		text-decoration: underline
+		outline: 0
+
+p
+	margin-bottom: 1rem
+ol, ul
+	list-style-position: inside
+ol
+	font-size: 1.1rem
+	color: rgb(81, 81, 81)
+		
+img
+	height: auto
+	max-width: 100%
+
+input:focus, textarea:focus, button:focus
+	outline: 0
+
+iframe
+	display: block
+	margin: 0 auto 0rem
+table
+	width: 100%
+	td
+		min-width: 25rem
+		font-weight: 500
+		line-height: normal
+		font-size: 1.2rem
+		@media (max-width: 578px)
+			min-width: 100%
+
+
+
+form
+
+
+label
+	cursor: pointer
+
+input
+	&[type=range]
+		position: relative
+		display: block
+		margin: 0 auto 1rem
+		padding: 0 /* IE */
+		width: 90%
+		height: 4px
+		background: transparent
+		outline: none
+		border: none /* FF */
+		opacity: 1
+		z-index: 2
+		appearance: none
+		transition: all 0.2s
+
+		&::-webkit-slider-thumb 
+			appearance: none
+			width: 21px /* Set a specific slider handle width */
+			height: 21px /* Slider handle height */
+			margin-left: -5px
+			background: #eb8c00 /* Green background */
+			border: 4px solid #fff
+			border-radius: 50%
+			box-shadow: 0px 0 10px 1px #d0d0d0
+			cursor: pointer /* Cursor on hover */
+
+		&::-moz-range-thumb 
+			width: 21px /* Set a specific slider handle width */
+			height: 21px /* Slider handle height */
+			background: #eb8c00 /* Green background */
+			border: 4px solid #fff
+			border-radius: 50%
+			box-shadow: 0px 0 10px 1px #d0d0d0
+			cursor: pointer
+
+		&:hover 
+			opacity: 1
+		&:focus 
+			outline: none
+
+	&[type=file] 
+		display: none
+
+
+.slick-vertical .slick-slide
+	outline: none
+	border: none

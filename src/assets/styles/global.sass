@@ -1,0 +1,232 @@
+/* Bootstrap */
+.container
+	padding-left: 1rem
+	padding-right: 1rem
+	@media screen and (min-width: 992px)
+		max-width: 1200px !important
+	@media (min-width: 1280px)
+		max-width: 1200px !important
+	&--abc
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		z-index: 100
+		padding-top: 3rem
+
+.row:not(.no-gutters)
+	margin-left: -1rem
+	margin-right: -1rem
+	&-five > [class*='col-']
+		@media screen and (min-width: 992px)
+			width: 20%  
+		@media screen and (max-width: 992px)
+			width: 33.33%
+		@media screen and (max-width: 768px)
+			float: left
+			width: 50%
+
+[class*='col-']
+	padding-left: 1rem
+	padding-right: 1rem
+// style for header-fixed
+.header.is-clone 
+	position: fixed
+	top: -10rem
+	left: 0
+	right: 0
+	width: 100%
+	z-index: 1000
+	-webkit-transition: .5s
+	-o-transition: .5s
+	transition: .5s
+.is-clone
+	padding: 1.1rem 0 !important
+	background-color: #2d2d2d
+.header.is-fixed
+	top: 0 !important
+
+.block-fixed
+	position: relative
+	right: 0
+	left: 0
+	top: 0
+	width: 100%
+	z-index: 400
+
+.is-fixed
+	position: fixed
+	width: 100%
+	z-index: 10000
+	box-shadow: 0 0 4px 1px #2d2d2d
+	top: 0 !important
+	
+.fancybox-content
+	padding: 0
+	background-color: transparent
+
+.fancybox-close-small
+	color: red !important
+	padding: 0 !important
+.item-tabs
+	display: inline-block !important
+	float: none !important
+
+.active .nav-tabs__link
+	background: #eb8c00 !important
+	color: #fff !important
+.nav-tabs__link:hover
+	color: #eb8c00 !important
+.nav-tabs__link:focus
+	color: #fff !important
+   
+
+
+.multiple-items
+	height: 100% !important
+
+
+.slick-slide
+	outline: none
+	border: none
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover
+	color: none
+	outline: 0
+.slick-slider
+	display: flex
+	align-items: center
+.slick-next, .slick-prev
+	display: block
+	position: absolute
+	background-position: center
+	background-repeat: no-repeat
+	outline: 0
+	border: none
+	color: transparent
+	cursor: pointer
+	padding: 0
+	height: 35px
+	width: 17px
+	line-height: 0
+	font-size: 0
+	background-color: transparent
+	background-size: contain
+	z-index: 20
+
+.slick-next::before, .slick-prev::before
+	content: none
+.slick-next
+.slick-prev
+
+.slick-arrow
+	display: block
+	position: absolute
+	background-position: center
+	background-repeat: no-repeat
+	outline: 0
+	border: none
+	color: transparent
+	cursor: pointer
+	padding: 0
+	height: 35px
+	width: 17px
+	line-height: 0
+	font-size: 0
+	background-color: transparent
+	background-size: contain
+	z-index: 20
+	&::before
+		content: none
+	&::after
+		content: none
+
+.section-master__slider--next
+	right: 0
+	width: 7px
+	height: 14px
+	background-image: url('../images/small-slider-right.svg')
+.section-master__slider--prev
+	left: 0
+	width: 7px
+	height: 14px
+	background-image: url('../images/small-slider-left.svg')
+
+.section-works-gallery__slider-inner--next
+	right: 0
+	width: 57px
+	height: 82px
+	background-image: url('../images/slider-bg-right.svg')
+	z-index: 10
+.section-works-gallery__slider-inner--prev
+	left: 0
+	width: 57px
+	height: 82px
+	background-image: url('../images/slider-bg-left.svg')
+
+
+
+
+.table-striped tbody tr:nth-of-type(odd)
+	background-color: #F2F6F7
+.table-striped tbody tr td
+	border: none
+
+
+.g-link-abs
+	position: absolute
+	top: 0
+	right: 0
+	left: 0
+	bottom: 0
+	z-index: 20
+
+.section
+	background-size: cover
+	
+
+.section-form
+	padding-top: 280px
+	padding-bottom: 50px
+
+.section-title
+	font-weight: 400
+	text-transform: uppercase
+	color: #fff
+	font-size: 3.5rem
+	&.\--black
+		color: #333333
+	@media (max-width: 990px)
+		font-size: 2.3rem
+
+
+.splide__arrow
+	&::before
+		content: ''
+		position: absolute
+		background-repeat: no-repeat
+		background-size: cover
+		width: 57px
+		height: 82px
+		z-index: 20
+.splide__arrow--next
+	&::before
+		background-image: url('../images/slider-bg-right.svg')
+.splide__arrow--prev
+	&::before
+		background-image: url('../images/slider-bg-left.svg')
+.splide__pagination
+	bottom: -40px
+.splide__pagination__page
+	background-color: #333
+	border: 2px solid #333
+	&.is-active
+		border-color: #F0C17D
+
+label.error
+	color: red
+	font-size: 1.2rem
+	position: absolute
+	bottom: -18px
+	left: 0
+.required.error
+	border: 1px solid red

@@ -1,0 +1,13 @@
+#anchor-1
+form(action="POST").form
+	.form__title Для участия в двухдневном мастер-классе <span>Яны Шейдер</span> заполните форму и запишитесь прямо сейчас
+	.form__inner
+		.form__input-wrap
+			input.form__input.required(name="name" type="text", placeholder="Ваше имя")
+		.form__input-wrap
+			input.form__input.required(name="phone" type="text", placeholder="Ваш телефон")
+		.form__button-wrap
+			button(type="submit").form__button Записаться на мастер-класс
+	.form__conf-wrap
+		img.form__conf(src="assets/images/conf.svg", alt="")
+		|Мы гарантируем конфиденциальность данных

@@ -1,0 +1,11 @@
+@mixin font($weight, $size)
+  font: $weight $size
+
+@mixin background($path)
+  background-image: url("../images/" + $path)
+  background-repeat: no-repeat
+  background-position: center
+@mixin tdcn($decoration)
+  text-decoration: $decoration
+  &:hover, &:focus
+    text-decoration: $decoration

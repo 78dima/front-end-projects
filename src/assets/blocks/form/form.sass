@@ -1,0 +1,165 @@
+.form
+	&__title
+		font-weight: 500
+		font-size: 2.2rem
+		text-align: center
+		color: #333333
+		span
+			color: #F0C17D
+		@media (max-width: 990px)
+			font-size: 1.8rem
+	&__inner
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-top: 15px
+		@media (max-width: 990px)
+			flex-direction: column
+	&__input-wrap
+		max-height: 51px
+		height: 100%
+		max-width: 374px
+		width: 100%
+		position: relative
+		@media (max-width: 990px)
+			margin-bottom: 15px
+		@media (min-width: 991px) and (max-width: 1199px)
+			width: 32%
+	&__input
+		background: #FFFFFF
+		border: 1px solid #333333
+		font-size: 1.4rem
+		width: 100%
+		height: 100%
+		font-weight: 400
+		padding: 18px 10px 17px 26px
+		@media (max-width: 990px)
+			padding: 13px 10px 13px 26px
+	&__button-wrap
+		max-width: 374px
+		height: 51px
+		width: 100%
+		@media (min-width: 991px) and (max-width: 1199px)
+			width: 30%
+	&__button
+		font-size: 14px
+		font-weight: 500
+		text-align: center
+		color: #111111
+		text-transform: uppercase
+		border: none
+		outline: none
+		background-color: #F0C17D
+		width: 100%
+		height: 100%
+		cursor: pointer
+		&:hover, &:focus
+			background-color: #dcaa63
+	&__conf-wrap
+		display: flex
+		align-items: center
+		justify-content: center
+		font-weight: 400
+		line-height: normal
+		font-size: 1rem
+		color: #bcbfc4
+		margin-top: 30px
+		img
+			margin-right: 10px
+
+.c-modal
+	position: relative
+	z-index: 1000000
+.c-modal__container
+	position: fixed
+	backface-visibility: hidden
+	height: 100%
+	left: 0
+	outline: 0
+	background: #0000005a
+	top: 0
+	touch-action: manipulation
+	transform: translateZ(0)
+	width: 100%
+.c-modal__content
+	display: flex
+	align-items: center
+	justify-content: center
+	max-width: 55rem
+	height: 100%
+	margin: auto
+	padding: 0 2rem
+
+.c-message__item
+	padding: 4rem 8rem 4rem 4rem
+	display: flex
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .24), 0 4px 16px rgba(0, 0, 0, .16)
+	border-radius: 2px
+	background-color: #fff
+	position: relative
+
+.c-message__item--close
+	position: absolute
+	right: 0
+	top: 0
+	width: 3.2rem
+	height: 3.2rem
+	opacity: .3
+	cursor: pointer
+
+.c-message__item--close:hover
+	opacity: 1
+.c-message__item--close:after,
+.c-message__item--close:before
+	content: ' '
+	position: absolute
+	left: 1rem
+	top: 1rem
+	height: 2.3rem
+	width: .2rem
+	background-color: #ff3d33
+
+.c-message__item--close:before
+	-webkit-transform: rotate(45deg)
+	transform: rotate(45deg)
+
+.c-message__item--close:after
+	transform: rotate(-45deg)
+
+.c-message__title
+	font-weight: 400
+	line-height: 2.5rem
+	font-size: 1.6rem
+	color: #515255
+
+.c-message__text
+	margin-top: 1rem
+	font-weight: 400
+	line-height: 1.5rem
+	font-size: 1.2rem
+	color: #949699
+
+.c-message__msg
+	margin-top: 1rem
+	font-weight: 400
+	line-height: 1.5rem
+	font-size: 1.2rem
+	text-decoration-line: underline
+	color: #109756
+
+.c-message__wrap-img
+	margin-right: 3.5rem
+	max-width: 12rem
+
+.c-message__img
+	min-width: 10rem
+
+.section-form-popup
+	.form
+		max-width: 410px
+		background-color: #fff
+		padding: 25px
+	.form__inner
+		flex-direction: column
+	.form__input-wrap
+		margin-bottom: 20px

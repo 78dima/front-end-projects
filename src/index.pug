@@ -1,0 +1,31 @@
+doctype html
+html(lang="ru")
+	include assets/blocks/head/head
+	body
+		.c-modal.--success(style='display: none;')
+			.c-modal__container
+				.c-modal__content
+					.c-message
+						.c-message__item
+							.c-message__item--close
+							.c-message__wrap-img
+								img.c-message__img(src='assets/images/succes.svg' alt='')
+							.c-message__inner
+								.c-message__title Заявка успешно отправлена!
+								.c-message__text Наши специалисты свяжутся с вами в самое ближайшее время.
+								.c-message__msg Спасибо!
+		.c-modal.--error(style='display: none;')
+			.c-modal__container
+				.c-modal__content
+					.c-message
+						.c-message__item
+							.c-message__item--close
+							.c-message__wrap-img
+								img.c-message__img(src='assets/images/error.svg' alt='')
+							.c-message__inner
+								.c-message__title Ошибка!
+								.c-message__text
+								| Отправка формы не удалась. Возможно, заполнены не все
+								| поля.
+								.c-message__msg Попробовать еще...
+		include assets/blocks/scripts/scripts
