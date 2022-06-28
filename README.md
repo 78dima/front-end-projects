@@ -1,4 +1,4 @@
-# front-end-scripts
+# front-end-projects
 w.academybb.ru <br>
 wbooster.ru <br>
 liantrade-sb.ru <br>
